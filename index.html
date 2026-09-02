@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aquila Unisex Salon — Uyo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink: #111111;
+    --paper: #FFFFFF;
+    --gray: #6E6E6E;
+    --line: rgba(17,17,17,0.12);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-weight:300;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  .frame{max-width:560px;margin:0 auto;}
+
+  .storefront{width:100%;height:280px;object-fit:cover;display:block;}
+
+  header{padding:36px 28px 40px;border-bottom:2px solid var(--ink);}
+  .kicker{
+    font-size:11px;letter-spacing:0.3em;text-transform:uppercase;
+    color:var(--gray);margin-bottom:14px;
+  }
+  h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:64px;
+    line-height:0.92;
+    letter-spacing:-0.01em;
+  }
+  .split-tag{
+    display:flex;justify-content:space-between;
+    margin-top:22px;
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:500;
+    font-size:14px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+  }
+  .rating{margin-top:20px;font-size:13px;color:var(--gray);}
+  .rating b{color:var(--ink);}
+  .cta-row{display:flex;gap:0;margin-top:28px;}
+  .btn{
+    flex:1;text-align:center;
+    padding:15px 0;
+    font-size:12.5px;letter-spacing:0.08em;text-transform:uppercase;
+    border:2px solid var(--ink);
+  }
+  .btn.solid{background:var(--ink);color:var(--paper);}
+
+  section{padding:44px 28px;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  .label{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:13px;letter-spacing:0.1em;text-transform:uppercase;
+    margin-bottom:26px;
+  }
+
+  .service-list{display:flex;flex-direction:column;}
+  .service-item{
+    display:flex;align-items:baseline;gap:16px;
+    padding:13px 0;border-bottom:1px solid var(--line);
+    font-size:15px;
+  }
+  .service-item:last-child{border-bottom:none;}
+  .service-item .idx{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:12px;color:var(--gray);
+    min-width:24px;
+  }
+
+  .quote{
+    border-left:2px solid var(--ink);
+    padding-left:18px;
+    margin-bottom:26px;
+  }
+  .quote:last-child{margin-bottom:0;}
+  .quote-text{
+    font-size:16.5px;line-height:1.6;color:var(--ink);
+  }
+  .quote-attr{
+    font-size:11.5px;letter-spacing:0.06em;text-transform:uppercase;
+    color:var(--gray);margin-top:10px;
+  }
+
+  .visit-box{border:2px solid var(--ink);padding:22px;}
+  .visit-row{
+    display:flex;justify-content:space-between;
+    font-size:14px;padding:10px 0;border-bottom:1px dotted var(--line);
+    gap:16px;
+  }
+  .visit-row:last-child{border-bottom:none;}
+  .visit-label{
+    font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:var(--gray);white-space:nowrap;
+  }
+  .visit-val{text-align:right;}
+
+  footer{padding:40px 28px 56px;}
+  footer .btn{display:block;width:100%;margin-bottom:0;}
+  footer .btn:first-child{margin-bottom:-2px;}
+</style>
+</head>
+<body>
+<div class="frame">
+
+  <img class="storefront" src="aquila-storefront.webp" alt="Aquila Unisex Salon storefront, Uyo">
+
+  <header>
+    <div class="kicker">124 Oron Rd · Uyo</div>
+    <h1>AQUILA</h1>
+    <div class="split-tag">
+      <span>Simple Unique</span>
+      <span>Super Luxury</span>
+    </div>
+    <div class="rating"><b>★ 4.9</b> · 56 Google reviews</div>
+    <div class="cta-row">
+      <a class="btn solid" href="tel:08147636606">Call Now</a>
+      <a class="btn" href="https://wa.me/2348147636606" target="_blank">WhatsApp</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="label">Services</div>
+    <div class="service-list">
+      <div class="service-item"><span class="idx">01</span> Hairstyling</div>
+      <div class="service-item"><span class="idx">02</span> Barbing</div>
+      <div class="service-item"><span class="idx">03</span> Hair Cuts &amp; Coloring</div>
+      <div class="service-item"><span class="idx">04</span> Braiding &amp; Weaving</div>
+      <div class="service-item"><span class="idx">05</span> Wig Installation &amp; Revamping</div>
+      <div class="service-item"><span class="idx">06</span> Hair &amp; Skin Treatments</div>
+      <div class="service-item"><span class="idx">07</span> Pedicure &amp; Manicure</div>
+      <div class="service-item"><span class="idx">08</span> Makeup</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">What Clients Say</div>
+
+    <div class="quote">
+      <div class="quote-text">Aquila is the best hair salon I have ever been to — mostly in the hair section, that barber just knows his work.</div>
+      <div class="quote-attr">Gideon Uko</div>
+    </div>
+
+    <div class="quote">
+      <div class="quote-text">Your work is always neat and well done, and I really appreciate how friendly and welcoming you are to your clients. You make the whole experience comfortable and enjoyable.</div>
+      <div class="quote-attr">Goodnews Akwa</div>
+    </div>
+
+    <div class="quote">
+      <div class="quote-text">Excellent beauty and grooming services in a clean, comfortable, and welcoming environment. Every customer leaves looking and feeling their best.</div>
+      <div class="quote-attr">Perfect Francis</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Visit</div>
+    <div class="visit-box">
+      <div class="visit-row">
+        <div class="visit-label">Address</div>
+        <div class="visit-val">124 Oron Rd, Uyo</div>
+      </div>
+      <div class="visit-row">
+        <div class="visit-label">Hours</div>
+        <div class="visit-val">Open Daily · Closes 8pm</div>
+      </div>
+      <div class="visit-row">
+        <div class="visit-label">Phone</div>
+        <div class="visit-val">0814 763 6606</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a class="btn solid" href="tel:08147636606">Call to Book</a>
+    <a class="btn" href="https://wa.me/2348147636606" target="_blank">Message on WhatsApp</a>
+  </footer>
+
+</div>
+</body>
+</html>
